@@ -1,0 +1,25 @@
+// abstracts ------------------------------
+@import "abstracts/variables.scss";
+@import "abstracts/functions.scss";
+@import "abstracts/mixins.scss";
+@import "abstracts/placeholders.scss";
+
+// vendors ------------------------------
+
+// base ------------------------------
+@import "base/reset.scss";
+@import "base/typography.scss";
+
+// layout ------------------------------
+
+// components ------------------------------
+
+// pages ------------------------------
+
+// Themes ------------------------------
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 3.4em;
+}
