@@ -13,13 +13,27 @@
 // layout ------------------------------
 
 // components ------------------------------
-
+@import "./components/Image";
+@import "./components/Button";
 // pages ------------------------------
-
 // Themes ------------------------------
-
 body {
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  background-color: $bg_color;
   color: white;
-  font-size: 3.4em;
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  margin: 17.6rem 1.4rem;
+  padding: 4rem;
+  text-align: center;
+  background-color: $wrapper_color;
+  border-radius: 2rem;
+  @include breakpoint(450px) {
+    margin: 10rem 1.4rem;
+    padding: 3rem;
+    width: 100%;
+  }
 }
